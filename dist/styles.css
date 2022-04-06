@@ -805,6 +805,10 @@ font-family: 'Vazirmatn', sans-serif;*/
     width: 80%;
   }
 
+  .md\:max-w-\[1120px\] {
+    max-width: 1120px;
+  }
+
   .md\:max-w-\[30rem\] {
     max-width: 30rem;
   }
@@ -850,11 +854,6 @@ font-family: 'Vazirmatn', sans-serif;*/
     line-height: 2rem;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -862,11 +861,5 @@ font-family: 'Vazirmatn', sans-serif;*/
 
   .md\:\[line-height\:1\.3\] {
     line-height: 1.3;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:max-w-7xl {
-    max-width: 80rem;
   }
 }
