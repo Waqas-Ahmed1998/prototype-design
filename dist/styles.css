@@ -513,8 +513,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
+.h-\[90vh\] {
+  height: 90vh;
 }
 
 .w-full {
@@ -785,6 +785,14 @@ font-family: 'Vazirmatn', sans-serif;*/
 @media (min-width: 370px) {
   .iphone6\:top-\[15\%\] {
     top: 15%;
+  }
+
+  .iphone6\:top-\[10\%\] {
+    top: 10%;
+  }
+
+  .iphone6\:top-\[12\%\] {
+    top: 12%;
   }
 }
 
