@@ -1,5 +1,6 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
+  prefix: "tw-",
   content: ["./*.html"],
   theme: {
     screens: {

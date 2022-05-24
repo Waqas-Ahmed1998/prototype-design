@@ -19,6 +19,7 @@ font-family: sans-serif;
   /* font-family: "popins", sans-serif; */
   /* font-family: "Tajawal", sans-serif; */
 
+
 }
 
 .subheading {
@@ -40,6 +41,10 @@ font-family: sans-serif;
 
 
 
+}
+.background-image {
+  background-image: url(./img/bg.png
+  );
 }
 .disclaimer {
   font-family: 'Lato', sans-serif;
